@@ -4,19 +4,20 @@
 <head>
     <link href="styles.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
 
     <div class="topnav">
-        <a href="">HOME</a>
-        <a href="">PROJECTS</a>
-        <a href="">PROFILES</a>
-        <a href="">CONTACT</a>
-        <a href="">RESUME</a>
+        <a href="#a11">HOME</a>
+        <a href="#projectView">PROJECTS</a>
+        <a href="#profileView">PROFILES</a>
+        <a href="contactView">CONTACT</a>
+        <a href="#resumeView">RESUME</a>
     </div>
-    <div class="parallax">
+    <div class="parallax"  id="a11">
         <div class="centered">
             <p class="welcome">WELCOME TO MY WEBSITE<br><br><br> Scroll down for more info</p>
         </div>
@@ -41,7 +42,7 @@
 
     </div>
 
-    <div>
+    <div id="projectView">
         <h1 style="text-align: center; color: aliceblue;">
             PROJECTS
 
@@ -51,7 +52,8 @@
         <p class="myStyle1">
             This app can be used by users to send an email to the coffee shop specifying what they want.<br>
             This is done by just using intents and transfering data to a mail App. Visit my github profile for full
-            documentation and code.
+            documentation and code.<br>
+            Visit this link <a href="https://github.com/srujangit123/Coffee-App">Source code</a>
             <br>
             The following images show the UI of the app. <br><br>
             <div class="row">
@@ -65,24 +67,51 @@
                     <img src="Images/image3.jpg" alt="Screenshot" style="width:100%; height: 500px;">
                 </div>
                 <br>
-
+                
             </div>
-            And many more yet to come!
+           
         </p>
+        <p class="myStyle1"> And many more yet to come!</p>
+        <br>
+        <br>
     </div>
-    <div>
+    <div id="resumeView">
         <h1 style="text-align: center; color: aliceblue;">
             My Resume
         </h1>
+        <br>
         <p class="myStyle1"> I am still not very experienced in computer science to have CV.<br>
             If you still want my resume please mail me at <a href="mailto:srujanbharadwaj44@gmail.com">
                 srujanbharadwaj44@gmail.com </a> or 
                 <a href="mailto:srujanbharadwaj.191cs254@nitk.edu.in">srujanbharadwaj.191cs254@nitk.edu.in</a></p>
+                <br>
+                <br>
     </div>
 
+    <div id="contactView">
+        <h1 style="text-align: center; color: aliceblue;">Contact</h1>
+        <h4 style="color: cadetblue;">My address</h4>
+        <address class="myStyle1">
+            Block 2(Aravali)<br>
+            NITK<br>
+            Srinivasnagar<br>
+            Mangalore,Karnataka<br>
+            India<br>
+        </address>
+        <br>
+        <h4 style="color: cadetblue; ">Call me</h4>
+            <p class="myStyle1"> +91-8197223794</p>
+    </div>
+
+    <div id ="profileView"> 
+        <h1 style="text-align: center; color: aliceblue;" >Some of my profiles</h1>
+        <a href="github.com/srujangit123"><i class="fab fa-github" style="width: 50px;"></i></a>
+        <a href="https://www.linkedin.com/in/srujan-bharadwaj-1b2711188/"><i class="fab fa-linkedin-in"></i></a>
+
+        <br><br><br>
+    </div>
 
     <div class="footer">
-        
         <p>THE END</p>
     </div>
 
