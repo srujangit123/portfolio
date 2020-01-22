@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+
+}
+.header {
+    background-color:black;
+    text-align: center;
+    padding: 10px;
+
+  }
+  p.headerStyle {
+      font-size: larger;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      color: antiquewhite;
+  }
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+}
+
+.topnav a {
+    padding: 15px;
+    border-width: 2px ;
+    margin: 3px;
+    display: block;
+    text-align: center;
+    font-family: cursive;
+    font-size: medium;
+    width: 200px;
+    color: whitesmoke;
+    text-decoration: none;
+    float: left;
+}
+
+.topnav a:hover, .topnav a:active{
+    background-color: #008000;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("Images/nature1.jpg");
+  
+    /* Set a specific height */
+    min-height: 720px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.myStyle1 {
+    color: antiquewhite; 
+    font-style: italic; 
+    font-family: cursive;
+}
+div.abc{
+    display: inline-block;
+    width: max-content;
+
+}
+
+.footer {
+    background-color:grey;
+    padding: 10px;
+    text-align: center;
+  }
+
+.firstView {
+    padding:20px;
+    width: 100%;
+    height: 500px;
+    background-image: url('Images/nature1.jpg');
+    
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .welcome {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    color: antiquewhite;
+  }
+
+
+  .column {
+    float: left;
+    width: 300px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    box-sizing: border-box;
+  }
